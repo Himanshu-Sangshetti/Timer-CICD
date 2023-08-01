@@ -16,7 +16,7 @@ RUN rm -rf /etc/nginx/conf.d
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
-COPY --from=build /timer/build /usr/share/nginx/html
+COPY --from=build /pomodoro-timer/build /usr/share/nginx/html
 
 EXPOSE 80
 
