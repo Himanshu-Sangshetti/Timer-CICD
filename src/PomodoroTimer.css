@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('  https://i.gifer.com/5m5h.gif');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  .pomodoro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .session-box {
+    background-color: rgba(192, 192, 192, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 300px; 
+  }
+  
+  .session-box label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .session-box input {
+    width: 50px;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .timer-box {
+    background-color: rgba(192, 192, 192, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; 
+  }
+  
+  .timer {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
